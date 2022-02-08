@@ -179,6 +179,7 @@ box-sizing: border-box;
 
 /* Form section */
 #formdet{
+  margin-left: 34px;
   width: 420px;
   width: auto;
   padding: 35px;
