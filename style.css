@@ -335,6 +335,10 @@ box-sizing: border-box;
   background: #fff38e;
 } */
 
+.img-img{
+  height: auto;
+  height: 668px;
+}
 .aordiii{
   padding-top: 85px;
   background: url(loc-bg.svg);
@@ -342,6 +346,11 @@ box-sizing: border-box;
 
 @media(max-width:768px){
   
+  
+.img-img{
+  height: auto;
+  
+}
 .aordiii{
   padding-top: 85px;
 }
@@ -387,6 +396,12 @@ box-sizing: border-box;
   flex-direction: column;
   justify-content: space-between;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width:768px){
+  .contter .contactInfo{
+    margin-left: 0px;
+  }
 }
 
 .contter .contactInfo h2{
@@ -608,7 +623,7 @@ box-sizing: border-box;
 @media(max-width:600px){
 
   .contter .contactForm{
-    padding: 25px;
+    padding: 7px;
   }
   .contter .contactInfo{
     padding: 25px;
@@ -652,7 +667,87 @@ box-sizing: border-box;
 }
 
 /* 
-contact form first */
+Testimonial Section */
+
+.wrapper{
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
 
 
+.wrapper .box{
+  background: #fff;
+  width: calc(33% - 10px);
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+.wrapper .box i.quote{
+  font-size: 20px;
+  color: #17a2b8;
+}
+.wrapper .box .content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.box .info .name{
+  font-weight: 600;
+  font-size: 17px;
+}
+.box .info .job{
+  font-size: 16px;
+  font-weight: 500;
+  color: #17a2b8;
+}
+.box .info .stars{
+  margin-top: 2px;
+}
+.box .info .stars i{
+  color: #17a2b8;
+}
+.box .content .image{
+  height: 75px;
+  width: 75px;
+  padding: 3px;
+  background: #17a2b8;
+  border-radius: 50%;
+}
+.content .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
 
+.image{
+  margin-left: 195px;
+}
+.box:hover .content .image img{
+  border-color: #fff;
+}
+@media (max-width: 1045px) {
+  .wrapper .box{
+    width: calc(50% - 10px);
+    margin: 10px 0;
+  }
+}
+@media (max-width: 702px) {
+  .wrapper .box{
+    width: 100%;
+  }
+}
+
+
+.owl-carousel{
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
