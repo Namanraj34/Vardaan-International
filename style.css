@@ -344,7 +344,8 @@ box-sizing: border-box;
   height: 570px;
 }
 .aordiii{
-  padding-top: 85px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background: url(loc-bg.svg);
 }
 
